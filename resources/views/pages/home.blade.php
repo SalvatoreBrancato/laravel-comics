@@ -8,11 +8,9 @@
             <div class="current-series">CURRENT SERIES</div>
             
             @foreach( $comics as $elem )
-                <div class="card" style="width: 18rem;">
-                    <img src="{{ $elem['thumb'] }}" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">{{$elem['title']}}</h5>
-                    </div>
+                <div class="box-card">
+                    <img src="{{ $elem['thumb'] }}"  alt="">
+                    <h3>{{$elem['title']}}</h3>
                 </div>
             @endforeach  
             
