@@ -14,5 +14,8 @@
     <main>
         @yield('fumetti')
     </main>
+    <footer>
+        @include('partials.footer')
+    </footer>
 </body>
 </html>
